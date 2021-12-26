@@ -1,0 +1,31 @@
+
+.navbar-nav  {
+  font-size: 22px;
+
+}
+
+.container{
+  font-size: 25px;
+  color: rgb(48, 68, 87);
+
+}
+
+
+
+h3{
+position: relative;
+width: 15ch;
+font-weight: bold;
+animation: type 3s steps(10),blink 0.5s step-end infinite alternate;
+white-space: nowrap;
+overflow: hidden;
+border-right: 2px solid;
+}
+@keyframes type{
+ 0% { 
+    width: 0;
+}}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }}
